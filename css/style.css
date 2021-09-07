@@ -99,27 +99,34 @@ header .container, .logo, .menu {
     align-items: center;
 }
 
-
-
-
-
-.menu .search {
-    width: 266px; 
-    border: 1px solid #B3B3B3; 
-    min-height: 32px; 
+.search form {
+    position: relative;
+    width: 266px;
+    padding: 32px 0 32px 0;
 }
 
-.search .search_txt {
-    border: none; 
-    outline: none; 
-    -webkit-appearance: none; 
-    width: 266px; 
-    vertical-align: middle; 
+.search input {
+    width: 100%;
+    height: 32px;
+    padding-left: 10px;
+    border: 1px solid #B3B3B3
 }
 
-.search .submit {
-    width: 20px; 
-    height: 20px; 
-    border: none; 
-    background: url('../icons/search.png') no-repeat 50% 50%; 
+.search button {
+    position: absolute; 
+    top: 0;
+    right: 0px;
+    width: 32px;
+    height: 32px;
+    background: #009EE8;
+    cursor: pointer;
+    margin-top: 32px;
+ }
+
+.search button:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #F9F0DA;
 }
+
