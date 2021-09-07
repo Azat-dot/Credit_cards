@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header==========================*/
+
+.container {
+    position: relative;
+    width: 1440px; 
+    margin: 0 auto;
+}
+
+header {
+    min-height: 96px;
+    padding: 0 40px ;
+}
+
+header .container, .logo, .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+ }
+
+/* Logo */
+
+.hand_btn {
+    position: relative;
+    margin: 28px 0 27px 0;
+    height: 41px;
+    width: 62.900001525878906px;
+    left: 0.100006103515625px;
+    background: #009EE8;
+    border-radius: 4px;
+    cursor:pointer;
+} 
+
+.hand_btn .hand {
+    position: absolute;
+    margin-left: 0,1px;
+    margin-top: 5.5px;
+    cursor:pointer;
+}
+
+.hand_btn .shadow_finger {
+    position: absolute;
+    margin-left: 31.2px;
+    margin-top: 16.8px;
+}
+
+.hand_btn .under_hand {
+    position:absolute;
+    margin-left: 0.1px;
+    margin-top: 32.32px;
+}
+
+
+.logo .name {
+    position: relative;
+    margin-top: 29.9px;
+}
+
+.name .dream_com {
+    position: absolute;
+    margin-left: 12.6px;
+}
+
+.name .credit_maker {
+    position: relative;
+    margin-left: 12.4px;
+}
+
+.logo .vl {
+    border-left: 0.24px solid #009EE8;
+    height: 48.7px;
+    position: relative;
+    margin-top: 24.2px;
+    margin-left: 14.6px;
+}
+
+.logo .descr_text {
+    position: relative;
+    margin-left: 14.6px;
+    margin-top: 31.9px;   
+}
+
+
+/* menu */
+
+.menu .group2, .group1 {
+    margin-top: 39px;
+    margin-right: 54px;
+    margin-bottom: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.menu .search {
+    width: 266px; 
+    border: 1px solid #B3B3B3; 
+    min-height: 32px; 
+}
+
+.search .search_txt {
+    border: none; 
+    outline: none; 
+    -webkit-appearance: none; 
+    width: 266px; 
+    vertical-align: middle; 
+}
+
+.search .submit {
+    width: 20px; 
+    height: 20px; 
+    border: none; 
+    background: url('../icons/search.png') no-repeat 50% 50%; 
+}
