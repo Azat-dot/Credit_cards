@@ -4,14 +4,18 @@
     padding: 0;
 }
 
-
-/* Header==========================*/
+html {
+    font-family: 'Roboto', sans-serif;
+}
 
 .container {
     position: relative;
     width: 1440px; 
     margin: 0 auto;
 }
+
+
+/* Header==========================*/
 
 header {
     min-height: 96px;
@@ -22,9 +26,9 @@ header .container, .logo, .menu {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
  }
 
+ 
 /* Logo */
 
 .hand_btn {
@@ -130,3 +134,142 @@ header .container, .logo, .menu {
     color: #F9F0DA;
 }
 
+
+/* Contact Us ========================================================================== */
+
+.contact {
+    min-height: 266px;
+    background: url('../bg/bg.jpg') center center/cover no-repeat;
+    padding: 0 40px;
+}
+
+.contact .contact_links {
+    display: inline-block;
+    margin-top: 16px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.contact_links .link_offers {
+    color: #4D4D4D;
+}
+
+.contact_links .fas {   
+    color: #4D4D4D;
+    align-items: center;
+    margin-left: 5.73px
+}
+
+.contact_links .link_contactUs {
+    margin-left: 5.33px;
+    color: #4D4D4D;
+
+}
+
+.contact .descr {
+    padding: 64px 0 65px 0 ;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+h1 {
+    display: block;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 31px;
+    position: relative;
+    margin-left: 1px;
+}
+
+.contact .divider {
+    display: inline-block; 
+     position: relative;
+    margin-left: 34.5px;   
+}
+
+.divider .vl {
+    border-left: 0.24px solid #B3B3B3;
+    height: 57px;
+    position: relative;
+    Width: 1px;
+   
+}
+
+.triangle {
+    height: 7px;
+    width: 7px;
+    transform: rotate(135deg);
+    transform-origin: center center;
+    border-top: 1px solid #B3B3B3;
+    border-left: 1px solid #B3B3B3;
+    margin: 0 -3px -3px;
+}
+
+.descr .descr_txt {
+    display: block;
+    position: relative;
+    Width: 538px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    margin-left: 27.5px;
+}
+
+
+/* Form ========================================================================= */
+
+.form {
+    min-height: 626px;
+    margin: 0 40px;
+    padding: 60px ;
+}
+
+
+
+/* Mailing========================================================================= */
+
+.mailing {
+    min-height: 160px;
+    padding: 28px 40px;
+    background-color: #CFEFFF;
+}
+
+
+/* Contact_info====================================================================== */
+
+.contact_info {
+    height: 488px;
+    margin: 0 40px;
+    padding: 60px 0;
+}
+
+.contact_info h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+}
+
+.contact_info .banks_logo {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.banks_logo .banks {
+    display: flex;
+}
+
+
+/* Footer================================================================================== */
+
+footer {
+    height: 564px;
+    margin: 0 40px;
+    padding: 24px 0 87px 0;
+    background: url('../bg/BG_footer.png') center center/cover no-repeat;
+}
